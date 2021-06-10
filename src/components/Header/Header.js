@@ -8,10 +8,10 @@ function Header() {
       <div className="leftHeader">
         <img className="logo" alt="logo" src={logo}/>
         <ul className="menu">
-          <Link className="menuLink">Menu</Link>
-          <Link className="menuLink">{'Hours & Location'}</Link>
-          <Link className="menuLink">Our Story</Link>
-          <Link className="menuLink">Catering</Link>
+          <Link to='Menu' className="menuLink">Menu</Link>
+          <Link to='Hours' className="menuLink">{'Hours & Location'}</Link>
+          <Link to='Story' className="menuLink">Our Story</Link>
+          <Link to='Catering' className="menuLink">Catering</Link>
         </ul>
       </div>
       <div className="rightHeader">
