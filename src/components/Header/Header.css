@@ -1,9 +1,16 @@
 .Header{
     display: flex;
+    justify-content: center;
     justify-content: space-between;
     align-items: center;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: 'PT Serif', serif;
+    background-color: rgb(49, 49, 49);
+}
+
+.logo{
+    width: 150px;
 }
 
 .menu{
@@ -11,5 +18,10 @@
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    width: 300px;
+    width: 500px;
+}
+
+.menu li{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
 }
