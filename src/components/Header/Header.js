@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="Header">
       <div className="leftHeader">
-        <img className="logo" alt="logo" src={logo}/>
+        <Link to='/'><img className="logo" alt="logo" src={logo}/></Link>
         <ul className="menu">
           <Link to='Menu' className="menuLink">Menu</Link>
           <Link to='Hours' className="menuLink">{'Hours & Location'}</Link>
