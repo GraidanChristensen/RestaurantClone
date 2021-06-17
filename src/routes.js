@@ -5,6 +5,7 @@ import Menu from './components/Menu/Menu';
 import Catering from './components/Catering/Catering';
 import Hours from './components/Hours/Hours';
 import Story from './components/Story/Story';
+import Order from './components/Order/Order';
 
 export default(
     <Switch>
@@ -13,5 +14,6 @@ export default(
         <Route path='/Hours' component={Hours}/>
         <Route path='/Catering' component={Catering}/>
         <Route path='/Story' component={Story}/>
+        <Route path='/Order' component={Order}/>
     </Switch>
 )
