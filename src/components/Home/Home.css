@@ -1,5 +1,27 @@
 .Home{
-    background-color: rgb(31, 31, 31);
-    height: 100vh;
+    min-height: 100vh;
     margin: none;
+}
+
+.topHome{
+    background-color: rgb(31, 31, 31);
+    height: 60vh;
+}
+
+.homeImage{
+    position: absolute;
+    height: 76vh;
+    margin-left: 150px;
+}
+
+.homePlantImage{
+    width: 40vh;
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+    transform: rotate(-45deg);
+}
+
+.discoverHome{
+    background-color: white;
 }
