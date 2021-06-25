@@ -6,20 +6,28 @@
 .topHome{
     background-color: rgb(31, 31, 31);
     height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 100px;
 }
 
 .homeImage{
     position: absolute;
-    height: 76vh;
+    width: 40vw;
     margin-left: 150px;
 }
 
+.filler{
+    width: 50vw;
+}
+
 .homePlantImage{
-    width: 40vh;
-    position: absolute;
+    height: 300px;
     right: 5%;
     bottom: 0;
     transform: rotate(-45deg);
+    margin-top: 100px;
 }
 
 .discoverHome{
